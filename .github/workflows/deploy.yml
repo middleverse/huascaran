@@ -36,6 +36,6 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-          cache: "pnpm"
-      - run: pnpm install
+          cache: "npm"
+      - run: npm install
       - run: npm test
