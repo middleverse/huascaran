@@ -46,4 +46,4 @@ jobs:
           node-version: 16
           cache: "pnpm"
       - run: pnpm install
-      - run: pnpm test
+      - run: pnpm dev && curl http://localhost:3000
