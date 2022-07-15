@@ -29,5 +29,5 @@ jobs:
             source ~/.nvm/nvm.sh   
             pnpm -v && pnpm i
             which npx
+            which pm2
             npx -v
-            # sudo npx pm2 -v && sudo npx pm2 restart nextapp
