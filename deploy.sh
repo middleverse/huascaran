@@ -3,7 +3,8 @@
 echo ">>> This is a test file to make it executable."
 
 echo ">>> ENTERING REPO DIRECTORY"
-cd /usr/repos/huascaran
+cd /usr/repos/ && sudo chmod -R 777 huascaran
+cd huascaran
 
 echo ">>> PULLING FROM GIT"
 git pull
