@@ -11,45 +11,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # - uses: actions/checkout@v3
-
-      # - name: install pnpm
-      #   uses: pnpm/action-setup@v2.2.2
-      #   with:
-      #     version: 6.0.2
-      #     run_install: |
-      #       - recursive: true
-      #         args: [--frozen-lockfile, --strict-peer-dependencies]
-      #       - args: [--global, gulp, prettier, typescript]
-
-      # - name: Copy repository contents via scp
-      #   uses: appleboy/scp-action@master
-      #   env:
-      #     HOST: ${{ secrets.HOST }}
-      #     USERNAME: ${{ secrets.USERNAME }}
-      #     PORT: ${{ secrets.PORT }}
-      #     KEY: ${{ secrets.SSHKEY }}
-      #   with:
-      #     source: "."
-      #     target: "/var/www/mywebsite"
-
-      # - name: move to directory
-      #   uses: appleboy/ssh-action@master
-      #   with:
-      #     host: ${{ secrets.HOST }}
-      #     USERNAME: ${{ secrets.USERNAME }}
-      #     PORT: ${{ secrets.PORT }}
-      #     KEY: ${{ secrets.SSHKEY }}
-      #     script: cd /var/www/mywebsite
-
-      # - name: install node and run server
-      #   uses: actions/setup-node@v3
-      #   with:
-      #     node-version: 16
-      #     cache: "pnpm"
-      # - run: pnpm install
-      # - run: pnpm dev
-
       - name: curl localhost
         uses: appleboy/ssh-action@master
         with:
@@ -62,11 +23,11 @@ jobs:
             cd /usr/repos
             sudo chmod -R 777 huascaran
             cd huascaran
-            touch wtffile.md
             git stash
             git pull
             export NVM_DIR=~/.nvm
             source ~/.nvm/nvm.sh   
             pnpm -v && pnpm i
+            which npx
             npx -v
             sudo npx pm2 -v && sudo npx pm2 restart nextapp
