@@ -61,6 +61,7 @@ jobs:
             cd /usr/repos
             sudo chmod -R 777 huascaran
             cd huascaran
+            git stash
             git pull
             pnpm i
             pm2 restart nextapp
