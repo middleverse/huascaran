@@ -30,4 +30,3 @@ jobs:
             pnpm -v && pnpm i
             which npx
             which pm2
-            npx -v
