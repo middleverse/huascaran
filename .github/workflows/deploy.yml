@@ -28,3 +28,4 @@ jobs:
             export NVM_DIR=~/.nvm
             source ~/.nvm/nvm.sh   
             pnpm -v && pnpm i
+            ~/.local/share/pnpm/pm2 -v
