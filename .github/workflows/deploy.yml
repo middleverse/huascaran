@@ -64,6 +64,9 @@ jobs:
             cd huascaran
             git stash
             git pull
+            export NVM_DIR=~/.nvm
+            source ~/.nvm/nvm.sh   
+            which nvm
             npx -v
             pnpm -v && pnpm i
             pm2 -v && pm2 restart nextapp
