@@ -58,5 +58,10 @@ jobs:
           PORT: ${{ secrets.PORT }}
           KEY: ${{ secrets.SSHKEY }}
           script: |
-            cd /usr/repos/huascaran
+            cd /usr/repos
+            sudo chmod -R 777 huascaran
+            cd huascaran
+            git pull
+            pnpm i
+            pm2 restart nextapp
             ./deploy.sh
