@@ -65,4 +65,3 @@ jobs:
             git pull
             pnpm i
             pm2 restart nextapp
-            ./deploy.sh
