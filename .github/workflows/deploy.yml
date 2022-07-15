@@ -58,10 +58,12 @@ jobs:
           PORT: ${{ secrets.PORT }}
           KEY: ${{ secrets.SSHKEY }}
           script: |
+            echo $USER
             cd /usr/repos
             sudo chmod -R 777 huascaran
             cd huascaran
             git stash
             git pull
-            pnpm i
-            pm2 restart nextapp
+            npx -v
+            pnpm -v && pnpm i
+            pm2 -v && pm2 restart nextapp
