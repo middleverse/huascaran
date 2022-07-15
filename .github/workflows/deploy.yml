@@ -29,3 +29,4 @@ jobs:
             source ~/.nvm/nvm.sh   
             pnpm -v && pnpm i
             ~/.local/share/pnpm/pm2 -v
+            ~/.local/share/pnpm/pm2 restart nextapp
