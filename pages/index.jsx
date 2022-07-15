@@ -15,6 +15,8 @@ export default function HomePage() {
 
   return (
     <div>
+      <h1>First. Automated. Deploy.</h1>
+
       <header title="Develop. Preview. Ship. 🚀" />
       <ul>
         {names.map((name) => (
