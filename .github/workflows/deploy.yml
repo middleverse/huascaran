@@ -30,4 +30,4 @@ jobs:
             pnpm -v && pnpm i
             which npx
             npx -v
-            sudo npx pm2 -v && sudo npx pm2 restart nextapp
+            # sudo npx pm2 -v && sudo npx pm2 restart nextapp
