@@ -13,18 +13,20 @@ export default function HomePage() {
     setLikes(likes + 1);
   }
 
-  return (
-    <div>
-      <h1>First. Automated. Deploy.</h1>
+  return <div>Hello world 👋</div>;
 
-      <header title="Develop. Preview. Ship. 🚀" />
-      <ul>
-        {names.map((name) => (
-          <li key="{name}">{name}</li>
-        ))}
-      </ul>
+  // return (
+  //   <div>
+  //     <h1>First. Automated. Deploy.</h1>
 
-      <button onClick="{handleClick}">Like ({likes})</button>
-    </div>
-  );
+  //     <header title="Develop. Preview. Ship. 🚀" />
+  //     <ul>
+  //       {names.map((name) => (
+  //         <li key="{name}">{name}</li>
+  //       ))}
+  //     </ul>
+
+  //     <button onClick="{handleClick}">Like ({likes})</button>
+  //   </div>
+  // );
 }
