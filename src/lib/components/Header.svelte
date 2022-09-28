@@ -1,6 +1,6 @@
 <!-- Header.svelte -->
 <header>
-	<a href="/">Home</a>
+	<a href="/">HOME</a>
 
 	<nav>
 		<ul>
