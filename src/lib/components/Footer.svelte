@@ -1,5 +1,5 @@
 <!-- Header.svelte -->
-<header>
+<footer>
 	<a href="/">Home</a>
 
 	<nav>
@@ -15,10 +15,10 @@
 			</li>
 		</ul>
 	</nav>
-</header>
+</footer>
 
 <style>
-	header {
+	footer {
 		padding: 1rem;
 		background: lightskyblue;
 		display: flex;
