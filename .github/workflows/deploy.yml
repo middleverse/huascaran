@@ -26,5 +26,6 @@ jobs:
             git stash
             git pull
             export NVM_DIR=~/.nvm
-            source ~/.nvm/nvm.sh   
+            source ~/.nvm/nvm.sh
+            nvm install node   
             npm i
