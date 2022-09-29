@@ -27,5 +27,7 @@ jobs:
             git pull
             export NVM_DIR=~/.nvm
             source ~/.nvm/nvm.sh
-            nvm install node   
+            nvm install 18   
             npm i
+            pm2 stop npm
+            pm2 start npm -- start
