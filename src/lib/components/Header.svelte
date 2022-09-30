@@ -1,6 +1,7 @@
 <!-- Header.svelte -->
+
 <header>
-	<a href="/">Home</a>
+	<a class="logo-header" href="/">middleverse</a>
 
 	<nav>
 		<ul>
@@ -17,7 +18,6 @@
 <style>
 	header {
 		padding: 1rem;
-		background: lightskyblue;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;

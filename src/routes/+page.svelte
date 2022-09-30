@@ -1,2 +1,4 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<div class="centered">
+	<div class="logo">middleverse</div>
+	<h2 class="home-tagline">Inspiring you to create software, no matter what.</h2>
+</div>

@@ -1,12 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700&display=swap');
+
+// logo
+@import url('https://fonts.googleapis.com/css2?family=Redacted+Script:wght@300;400;700&display=swap');
+
 body {
 	margin: 0;
 	background: rgb(255, 255, 255);
 	color: #333;
-	font-family: sans-serif;
+	font-family: 'Inconsolata', monospace;
 }
 
 main {
 	padding: 1rem;
 	margin: 2rem auto;
 	max-width: 40rem;
+	vertical-align: middle;
+}
+
+.centered {
+	position: fixed;
+	top: 45%;
+	left: 50%;
+	vertical-align: middle;
+	/* bring your own prefixes */
+	transform: translate(-50%, -50%);
+}
+
+.logo {
+	font-family: 'Inknut Antiqua', serif;
+	font-size: 7rem;
+	font-weight: 800;
+}
+
+.home-tagline {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0rem;
+	color: rgb(38, 186, 159);
+}
+
+.logo-header {
+	font-family: 'Redacted Script', cursive;
+	font-size: 3.5rem;
+	font-weight: 400;
+	padding-left: 1.2rem;
+}
+
+nav {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
