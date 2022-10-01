@@ -1,5 +1,5 @@
 <div class="centered">
 	<h1 class="logo">middleverse</h1>
-	<h2 class="home-tagline">Build to learn. Build to play. Build to grow.</h2>
-	<h2 class="home-tagline">Everything software.</h2>
+	<h2 class="home-tagline">Software related.</h2>
+	<h3 class="pt-20 text-rose-500 text-sm">[this site is currently under construction]</h3>
 </div>
