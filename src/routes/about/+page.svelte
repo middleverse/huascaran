@@ -5,8 +5,8 @@
 
 <div class="text-justify pb-10">
 	<p class="p-3">
-		My hope is for this to be a space the dev community can learn from, get inspired by and
-		influence back.
+		My aim is for this to be a space the dev community can learn from, get inspired by and influence
+		back.
 	</p>
 
 	<p class="p-3">
