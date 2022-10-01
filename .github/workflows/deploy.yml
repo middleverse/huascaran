@@ -29,5 +29,5 @@ jobs:
             source ~/.nvm/nvm.sh
             nvm install 18   
             npm i
-            pm2 stop npm
+            pm2 del npm
             pm2 start npm -- start
