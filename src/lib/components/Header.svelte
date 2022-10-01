@@ -17,14 +17,14 @@
 
 <style>
 	header {
-		padding: 1rem;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
+		padding: 30px 30px;
+		vertical-align: middle;
 	}
 
 	ul {
-		margin: 0;
 		list-style-type: none;
 		display: flex;
 		gap: 1rem;
@@ -33,5 +33,11 @@
 	a {
 		text-decoration: none;
 		color: inherit;
+	}
+
+	.logo-header {
+		font-family: 'Inknut Antiqua', serif;
+		font-size: 1.5rem;
+		font-weight: 700;
 	}
 </style>

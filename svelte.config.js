@@ -8,7 +8,9 @@ const config = {
 	extensions: ['.svelte', '.md'],
 
 	preprocess: [
-		preprocess(),
+		preprocess({
+			postcss: true
+		}),
 		// convert md files to HTML
 		mdsvex({
 			extensions: ['.md']
