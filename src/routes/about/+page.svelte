@@ -19,7 +19,7 @@
 	</p>
 
 	<p class="p-3">
-		First and foremost, play reminds us to have fun, and so many of us, need this reminder. But
+		First and foremost, play reminds us to have fun, and so many of us need this reminder. But
 		there's more. Play induces a non-judgemental state of creation. Play is a catalyst for happy
 		accidents. Play is necessary for growth. Play is a central tenant of longevity.
 	</p>
