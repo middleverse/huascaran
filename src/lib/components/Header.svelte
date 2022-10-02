@@ -1,15 +1,15 @@
 <!-- Header.svelte -->
 
 <header>
-	<a class="logo-header" href="/">middleverse</a>
+	<nav class="mx-auto">
+		<a class="logo-header" href="/">middleverse</a>
 
-	<nav>
-		<ul>
-			<li>
-				<a href="/blog">Blog</a>
+		<ul class="flex text-gray-400 text-lg text-center font-medium">
+			<li class="flex-1 mr-2">
+				<a class=" block py-2 px-4" href="/blog">Blog</a>
 			</li>
-			<li>
-				<a href="/about">About</a>
+			<li class="flex-1 mr-2">
+				<a class="block py-2 px-4" href="/about">About</a>
 			</li>
 		</ul>
 	</nav>
@@ -33,11 +33,5 @@
 	a {
 		text-decoration: none;
 		color: inherit;
-	}
-
-	.logo-header {
-		font-family: 'Inknut Antiqua', serif;
-		font-size: 1.5rem;
-		font-weight: 700;
 	}
 </style>

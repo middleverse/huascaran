@@ -30,14 +30,20 @@ main {
 	text-align: center;
 }
 
-.logo {
+.logo-header {
 	font-family: 'Redacted Script', cursive;
-	font-size: 4rem;
+	font-size: 3rem;
 	font-weight: 300;
+}
+
+.logo {
+	font-family: 'Inknut Antiqua', serif;
+	font-size: 2.5rem;
+	font-weight: 700;
 }
 
 .home-tagline {
 	font-size: 1.3rem;
-	font-weight: 800;
+	font-weight: 400;
 	color: rgb(38, 186, 159);
 }
