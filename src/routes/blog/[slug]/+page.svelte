@@ -3,8 +3,8 @@
 	const { title, date, content: Content } = data;
 </script>
 
-<article>
-	<h1>{title}</h1>
+<article class="blog">
 	<p>Published: {date}</p>
+	<h1>{title}</h1>
 	<Content />
 </article>
