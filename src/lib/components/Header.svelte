@@ -4,12 +4,14 @@
 	<nav class="mx-auto">
 		<a class="logo-header" href="/">middleverse</a>
 
-		<ul class="flex text-gray-400 text-lg text-center font-medium">
+		<ul
+			class="flex text-blue-500 text-xl text-center font-medium underline decoration-blue-200 decoration-4 underline-offset-4"
+		>
 			<li class="flex-1 mr-2">
-				<a class=" block py-2 px-4" href="/blog">Blog</a>
+				<a class=" block py-2 px-4" href="/blog">BLOG</a>
 			</li>
 			<li class="flex-1 mr-2">
-				<a class="block py-2 px-4" href="/about">About</a>
+				<a class="block py-2 px-4" href="/about">ABOUT</a>
 			</li>
 		</ul>
 	</nav>

@@ -3,7 +3,7 @@
 <!-- Mission Section -->
 
 <div class="text-justify pb-10">
-	<h1 class="text-3xl text-center font-bold pb-3 about-signature">About Me</h1>
+	<h1 class="text-3xl text-center font-bold pb-3">About Me</h1>
 
 	<p class="p-3">
 		Hi, I'm Arshi. I'm the creator of middleverse. This is my space to create and share software
@@ -59,9 +59,3 @@
 
 	<p class="p-3">And play is missing from our craft.</p>
 </div>
-
-<style>
-	.about-signature {
-		color: rgb(38, 186, 159);
-	}
-</style>

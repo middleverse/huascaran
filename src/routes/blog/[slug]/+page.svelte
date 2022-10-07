@@ -4,7 +4,9 @@
 </script>
 
 <article class="blog">
-	<p>Published: {date}</p>
 	<h1>{title}</h1>
+	<hr />
+	<p class="text-rose-500">Published: {date} by Arshi Bhasin</p>
+	<hr class="mb-6" />
 	<Content />
 </article>

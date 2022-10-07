@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
 // logo
 @import url('https://fonts.googleapis.com/css2?family=Redacted+Script:wght@300;400;700&display=swap');
+// code snippet font
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600;&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -15,7 +17,7 @@ body {
 
 main {
 	padding: 1rem;
-	margin: 2rem auto;
+	margin: auto;
 	max-width: 40rem;
 	vertical-align: middle;
 }
@@ -45,42 +47,91 @@ main {
 .home-tagline {
 	font-size: 1.3rem;
 	font-weight: 400;
-	color: rgb(38, 186, 159);
+	color: theme('colors.orange.500');
 }
 
 .blog {
+	a {
+		text-decoration: underline;
+		text-decoration-color: theme('colors.yellow.500');
+		text-decoration-thickness: 3px;
+	}
+
+	ul {
+		color: theme('colors.gray.600');
+		padding: theme('spacing[3]');
+		padding-top: theme('spacing[0]');
+		list-style-type: disc;
+		list-style-position: inside;
+	}
+
+	p {
+		color: theme('colors.gray.600');
+		text-align: justify;
+		padding: theme('spacing[3]') theme('spacing[3]');
+	}
+
 	h1 {
-		color: theme('colors.blue.500');
+		color: theme('colors.green.500');
 		font-size: theme('fontSize.4xl');
-		font-weight: theme('fontWeight.semibold');
-		margin-bottom: theme('spacing[3]');
+		font-weight: theme('fontWeight.bold');
+		padding: theme('spacing[3]');
 	}
 
 	h2 {
+		text-decoration: underline;
+		text-decoration-color: theme('colors.green.500');
+		text-decoration-thickness: 5px;
+		color: theme('colors.gray.700');
 		font-size: theme('fontSize.3xl');
-		font-weight: theme('fontWeight.semibold');
-		margin-top: theme('spacing[10]');
-		margin-bottom: theme('spacing[3]');
+		font-weight: theme('fontWeight.bold');
+		padding: theme('spacing[3]');
+		padding-top: theme('spacing[6]');
 	}
 
 	h3 {
+		color: theme('colors.gray.600');
 		font-size: theme('fontSize.2xl');
-		font-weight: theme('fontWeight.semibold');
-		margin-top: theme('spacing[6]');
-		margin-bottom: theme('spacing[3]');
+		font-weight: theme('fontWeight.bold');
+		padding: theme('spacing[3]');
 	}
 
 	h4 {
+		color: theme('colors.gray.600');
 		font-size: theme('fontSize.xl');
 		font-weight: theme('fontWeight.semibold');
-		margin-top: theme('spacing[3]');
-		margin-bottom: theme('spacing[3]');
+		padding: theme('spacing[3]');
 	}
 
 	h5 {
+		color: theme('colors.gray.600');
 		font-size: theme('fontSize.lg');
 		font-weight: theme('fontWeight.semibold');
+		padding: theme('spacing[3]');
+	}
+
+	img {
 		margin-top: theme('spacing[3]');
 		margin-bottom: theme('spacing[3]');
+		padding: theme('spacing[3]');
+		border-radius: 0.25rem;
+		border-color: rgb(185, 186, 186);
+		border-width: 1px;
+	}
+
+	pre {
+		margin: theme('spacing[3]');
+		padding: theme('spacing[3]');
+		border-radius: 0.25rem;
+		border-color: rgb(185, 186, 186);
+		border-width: 1px;
+		white-space: pre-wrap;
+
+		code {
+			font-family: 'Source Code Pro', monospace;
+			color: theme('colors.gray.700');
+			font-weight: 500;
+			font-size: 0.75rem;
+		}
 	}
 }
