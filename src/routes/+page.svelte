@@ -5,7 +5,6 @@
 
 <style>
 	@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
-	@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 	#welcomeDiv {
 		position: relative;
 		left: 50%;

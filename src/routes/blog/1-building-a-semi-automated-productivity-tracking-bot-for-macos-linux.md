@@ -1,6 +1,6 @@
 ---
 title: Building A Semi-Automated Productivity Tracking Bot for MacOS, Linux
-date: '2022-10-04'
+date: '2022-10-09'
 ---
 
 ## Prologue
