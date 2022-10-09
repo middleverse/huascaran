@@ -17,5 +17,5 @@
 		</main>
 	{/key}
 
-	<Footer />
+	<!-- <Footer /> -->
 </div>

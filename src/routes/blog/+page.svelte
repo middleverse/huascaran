@@ -2,10 +2,10 @@
 	export let data;
 </script>
 
-<div class="">
-	<h1 class="text-3xl font-bold">Blog</h1>
+<div class="p-3">
+	<h1 class="text-3xl font-bold ">Blog</h1>
 
-	<ul>
+	<ul class="">
 		{#each data?.posts as post}
 			<li>
 				<h2 class="text-xl underline">
