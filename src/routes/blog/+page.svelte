@@ -3,17 +3,17 @@
 </script>
 
 <div class="p-3">
-	<h1 class="text-3xl font-bold ">Blog</h1>
+	<h1 class="text-3xl font-bold mb-6 text-center">Archive</h1>
 
-	<ul class="">
+	<ul>
 		{#each data?.posts as post}
-			<li>
-				<h2 class="text-xl underline">
+			<li class="pb-3">
+				<h2 class="text-lg font-semibold underline">
 					<a href={post.path}>
 						{post.meta.title}
 					</a>
 				</h2>
-				Published {post.meta.date}
+				<span class="text-sm font-semibold">Published {post.meta.date}</span>
 			</li>
 		{/each}
 	</ul>

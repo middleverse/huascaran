@@ -13,12 +13,12 @@
 	<img
 		alt="profile pic"
 		src="/images/profile.jpg"
-		class="h-48 w-48 container mx-auto m-6 rounded-full border-2 border-rose-400"
+		class="h-48 w-48 container mx-auto m-6 rounded-full border-4 border-blue-400"
 	/>
 
 	<p class="p-3">
 		Currently based in Montreal, Canada. Developing software at
-		<a href="https://livescale.tv" class="underline decoration-4 decoration-rose-400">Livescale</a>.
+		<a href="https://livescale.tv" class="underline decoration-4 decoration-blue-400">Livescale</a>.
 		Connect with me on
 
 		<a

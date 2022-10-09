@@ -5,7 +5,7 @@
 		<a class="logo-header" href="/">middleverse</a>
 
 		<ul
-			class="flex text-blue-500 text-xl text-center font-medium underline decoration-blue-200 decoration-4 underline-offset-4"
+			class="flex text-blue-500 text-xl text-center font-medium underline decoration-blue-200 decoration-2 underline-offset-8"
 		>
 			<li class="flex-1 mr-2">
 				<a class=" block py-2 px-4" href="/blog">BLOG</a>
