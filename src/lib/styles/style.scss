@@ -23,12 +23,6 @@ main {
 	vertical-align: middle;
 }
 
-.logo-header {
-	font-family: 'Redacted Script', cursive;
-	font-size: 3rem;
-	font-weight: 300;
-}
-
 .blog {
 	a {
 		text-decoration: underline;
@@ -51,10 +45,14 @@ main {
 	}
 
 	h1 {
-		color: theme('colors.green.500');
-		font-size: theme('fontSize.4xl');
+		color: theme('colors.blue.500');
+		font-size: theme('fontSize.3xl');
 		font-weight: theme('fontWeight.bold');
 		padding: theme('spacing[3]');
+
+		@media (min-width: 1024px) {
+			font-size: theme('fontSize.4xl');
+		}
 	}
 
 	h2 {

@@ -1,6 +1,6 @@
 <div id="welcomeDiv" class="text-center">
-	<h1 class="logo">middleverse</h1>
-	<h2 class="home-tagline">Software related.</h2>
+	<h1 class="logo text-3xl lg:text-5xl pb-2 lg:pb-3">middleverse</h1>
+	<h2 class="home-tagline text-md lg:text-xl">Software related.</h2>
 </div>
 
 <style>
@@ -13,14 +13,12 @@
 	}
 
 	.home-tagline {
-		font-size: 1.3rem;
 		font-family: 'Silkscreen', cursive;
 		color: theme('colors.orange.500');
 	}
 
 	.logo {
 		font-family: 'Inknut Antiqua', serif;
-		font-size: 3rem;
 		font-weight: 700;
 	}
 </style>
