@@ -16,38 +16,17 @@ body {
 }
 
 main {
+	height: 100%;
 	padding: 1rem;
 	margin: auto;
 	max-width: 40rem;
 	vertical-align: middle;
 }
 
-.centered {
-	position: fixed;
-	top: 45%;
-	left: 50%;
-	vertical-align: middle;
-	/* bring your own prefixes */
-	transform: translate(-50%, -50%);
-	text-align: center;
-}
-
 .logo-header {
 	font-family: 'Redacted Script', cursive;
 	font-size: 3rem;
 	font-weight: 300;
-}
-
-.logo {
-	font-family: 'Inknut Antiqua', serif;
-	font-size: 2.5rem;
-	font-weight: 700;
-}
-
-.home-tagline {
-	font-size: 1.3rem;
-	font-weight: 400;
-	color: theme('colors.orange.500');
 }
 
 .blog {

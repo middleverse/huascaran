@@ -8,12 +8,14 @@
 	export let data;
 </script>
 
-<Header />
+<div id="wrapper" class="flex flex-col h-screen">
+	<Header />
 
-{#key data.currentRoute}
-	<main in:fade={{ duration: 150, delay: 150 }} out:fade={{ duration: 150 }}>
-		<slot />
-	</main>
-{/key}
+	{#key data.currentRoute}
+		<main in:fade={{ duration: 150, delay: 150 }} out:fade={{ duration: 150 }}>
+			<slot />
+		</main>
+	{/key}
 
-<Footer />
+	<Footer />
+</div>

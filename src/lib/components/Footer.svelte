@@ -1,21 +1,15 @@
 <!-- Header.svelte -->
-<footer>
-	<div>© Arshi Bhasin</div>
+<footer class="p-3 text-center content-center">
+	<span class="text-xs text-blue-300 sm:text-center dark:text-gray-400"
+		>© 2022 Arshi Bhasin / middleverse. All Rights Reserved.</span
+	>
 </footer>
 
 <style>
-	footer {
-		position: fixed;
-		bottom: 0;
-		width: 100%;
-		padding: 1rem;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
-	}
+	@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
 
-	div {
-		margin: auto;
-		text-align: center;
+	footer {
+		font-size: 1 rem;
+		font-family: 'Silkscreen', cursive;
 	}
 </style>
